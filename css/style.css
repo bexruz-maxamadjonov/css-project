@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Instrument Sans", sans-serif;
+}
+
+header {
+    background-color: #E65425;
+}
+
+.header_container {
+    max-width: 1520px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 13px 25px;
+    background-color: rgba(230, 84, 37, 1);
+}
+
+.header_container img {
+    width: 20px;
+    height: 20px;
+}
+
+.header_container_card {
+    display: flex;
+    gap: 11px;
+}
+
+.header_container_card p {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+.header_container_card img {
+    width: 16px;
+    height: 16px;
+}
+
+section {
+    background-image: url(../assets/images/oka.png);
+    height: 840px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section .headerContainer {
+    max-width: 1520px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 13px 25px;
+}
+
+section .headerContainer .headerContainerCards1 {
+    display: flex;
+    gap: 26px;
+}
+
+.line {
+    height: 31px;
+    width: 1px;
+    background-color: white;
+}
+
+section .headerContainer .headerContainerCards1 .secontCard {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+section .headerContainer .headerContainerCards1 .secontCard img:first-child {
+    width: 12px;
+}
+
+section .headerContainer .headerContainerCards1 .secontCard img:nth-child(3) {
+    width: 8px;
+    height: 5px;
+}
+
+section .headerContainer .headerContainerCards1 .secontCard p {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+section .headerContainer .headerContainerCards1 .bosh span {
+    color: #E65425;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+section .headerContainer .headerContainerCards1 .bosh p {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    /* padding: 0 60px; */
+}
+
+
+section .headerContainer .headerContainerCards1 .bosh,
+.boshIkki {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+section .headerContainer .headerContainerCards1 .last {
+    padding: 8px 24px;
+    background-color: #E65425;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.bigBox {
+    height: 516px;
+
+    width: 590px;
+}
+
+.bigBox .boxin {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 154px;
+    padding-top: 162px;
+}
+
+.bigBox .boxin button {
+    padding: 8px 16px;
+    color: #E65425;
+    border: radius 6px;
+    font-size: 16px;
+}
+
+.bigBox .boxintwo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 590px;
+    padding-top: 34px;
+}
+
+.bigBox .boxintwo span {
+    font-size: 48px;
+    line-height: 57.6px;
+    color: white;
+}
+
+.bigBox .boxintwo span .color {
+    color: #E65425;
+}
+
+.bigBox .boxinthree {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 154px;
+    width: 590px;
+}
+
+.bigBox .boxinthree span {
+    color: #FFFFFF;
+    padding-top: 14px;
+    padding-bottom: 40px;
+}
+
+.bigBox {
+    width: 590px;
+
+}
+
+.bigBox .boxinfour {
+    /* width: 590px;
+height: 60px; */
+    /* width: 590px; */
+    padding: 8px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    align-items: center;
+    background-color: #fff;
+}
+
+.bigBox .boxinfour span,
+img,
+button {
+
+    color: rgb(73, 70, 70);
+}
+
+.bigBox .boxinfour button {
+    padding: 8px 10px;
+    background-color: #E65425;
+    color: #fff;
+    border-radius: 6px;
+    width: 100px;
+    height: 40px;
+}
+
+.bigBox .boxinfour .select {
+    padding-left: 20px;
+}
+
+.bigBox .boxinfour span {
+    gap: 10px;
+}
+
+.bigBox .img img{
+    /* position: relative; */
+    width: 110px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+}
+
+.bigBox .img {
+    width: 243px;
+height: 53px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.bigBox .img span{
+     width: 243px;
+height: 53px;
+font-size: 14px;
+color: #FFFFFF;
+padding-bottom: 162px;
+}
